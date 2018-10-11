@@ -1,0 +1,72 @@
+{include file="common/head"}
+  <body>
+    <div class="x-body">
+        <form class="layui-form" action="{:url('conf/save')}" method="post">
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label"><span class="x-red">*</span>中文名称</label>
+                <div class="layui-input-inline"><input type="text"  name="cname" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label"><span class="x-red">*</span>英文名称</label>
+                <div class="layui-input-inline"><input type="text"  name="ename" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label">
+                    <span class="x-red">*</span>表单类型
+                </label>
+                <div class="layui-input-inline">
+                    <select name="form_type">
+                        <option value="input">input</option>
+                        <option value="radio">radio</option>
+                        <option value="checkbox">checkbox</option>
+                        <option value="select">select</option>
+                        <option value="textarea">textarea</option>
+                        <option value="file">file</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label">
+                    <span class="x-red">*</span>配置类型
+                </label>
+                <div class="layui-input-inline">
+                    <select name="conf_type">
+                        <option value="1">店铺配置</option>
+                        <option value="2">商品配置</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="desc" class="layui-form-label">可选值</label>
+                <div class="layui-input-inline"> <textarea placeholder="请输入可选值" name="values" class="layui-textarea"></textarea></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label">默认值</label>
+                <div class="layui-input-inline"><input type="text"  name="value" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="L_repass" class="layui-form-label"></label>
+                <button  class="layui-btn" lay-filter="add" lay-submit="" type="submit">增加</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        layui.use(['form','layer'], function(){
+            $ = layui.jquery;
+          var form = layui.form
+          ,layer = layui.layer;
+
+          //自定义验证规则
+          form.verify({
+            nikename: function(value){
+              if(value.length < 5){
+                return '昵称至少得5个字符啊';
+              }
+            }
+          });
+        });
+    </script>
+
+  </body>
+
+</html>
