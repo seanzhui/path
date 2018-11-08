@@ -7,9 +7,9 @@ class Common extends Controller
 {
   public function _initialize(){
 
-    if(isMobile()){
-    $this->redirect('mobile/index/index');
-    }
+    // if(isMobile()){
+    // $this->redirect('mobile/index/index');
+    // }
 
   }
 

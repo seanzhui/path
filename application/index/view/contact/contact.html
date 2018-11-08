@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit" />
+  <meta name="robots" content="index, follow" />
+  <title>联系我们_我的网站</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  {include file="common/head"}
+</head>
+<body>
+  <div id="page-body-wrap">
+    {include file="common/nav"}
+
+    <div class="page-title-style01 page-title-negative-top pt-bkg01 inner-header" style="background-image:url(images/contact.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>联系我们</h1>
+            <div class="breadcrumb-container inner-location"> <i class="fa fa-map-marker"></i> &nbsp;<span>当前位置： <a href='http://www.861ppt.com/72'>主页</a> > <a href='/72/a/lianxiwomen/'>联系我们</a></span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-container" id="innerpage-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="main col-md-9 inner-left" role="main">
+            <div class="about-page-wrap">
+              <div class="com-cnt page-content"> <p>
+              	广州市顺丰物流有限公司</p>
+                <br />
+                <p>
+                	公司凝聚了素质高、技能强、深谙物流管理的人才，拥有经过专业培训的装卸队伍，积累了丰富的实践管理经验并提供良好的服务。</p>
+                <p>
+                	&nbsp;</p>
+                全国免费热线：400-888-9999<br />
+                手机：13988889999<br />
+                电话：020-66889888<br />
+                传真：020-66889777<br />
+                邮箱：admin@163.com<br />
+                地址：广州市番禺经济开发区58号<br />
+                <br />
+                <br />
+                <div id="pages" class="page"></div>
+              </div>
+              <div id="contact-wrap">
+                <h3 class="msg-title">给我们留言</h3>
+
+                <form class="add-msg-form" action="/plus/diy.php" enctype="multipart/form-data" method="post">
+                  <input type="hidden" name="action" value="post" />
+                  <input type="hidden" name="diyid" value="1" />
+                  <input type="hidden" name="do" value="2" />
+                  <div class="row">
+                    <div class="cf-column col-md-6">
+                      <input name="zt" id="zt" type="text"  placeholder="主题" validate="minlength:2, maxlength:50, required:true"/>
+                    </div>
+                    <div class="cf-column col-md-6">
+                      <input name="name" id="name" type="text" placeholder="名字" validate="minlength:2, maxlength:50, required:true"/>
+                    </div>
+                    <div class="cf-column col-md-6">
+                      <input name="email" id="email" type="text"  placeholder="邮箱" validate="maxlength:40, required:true, email:true"/>
+                    </div>
+                    <div class="cf-column col-md-6">
+                      <input name="tel" id="tel" type="text"  placeholder="电话/手机" validate="minlength:6,maxlength:40, required:true"/>
+                    </div>
+                    <div class="cf-column col-md-12 cf-tarea">
+                      <textarea name="content" id="content"  placeholder="留言内容" validate="minlength:2, maxlength:200, required:true"></textarea>
+                    </div>
+                    <input type="hidden" name="dede_fields" value="name,text;tel,text;email,text;content,multitext;cp,text;zt,text" />
+                    <input type="hidden" name="dede_fieldshash" value="7ec7c442f925caa0891825e6fa521dd0" />
+                    <div class="cf-column col-md-12 submit-column">
+                      <button type="submit" id="submit-btn" class="submit-button">立即提交</button>
+                    </div>
+                  </div>
+                </form>
+
+                <script type="text/javascript" src="js/jquery.form.js"></script>
+                <script type="text/javascript" src="js/jquery.artdialog.js"></script>
+                <script type="text/javascript" src="js/iframetools.js"></script>
+              </div>
+            </div>
+          </div>
+
+          {include file="common/right_nav"}
+        </div>
+      </div>
+    </div>
+
+    <div class="for-bottom-padding"></div>
+    {include file="common/footer"}
+  </div>
+
+</body>
+</html>

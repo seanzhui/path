@@ -1,10 +1,10 @@
 <?php
 namespace app\index\controller;
 use app\index\controller\Common;
-class Index extends Common
+class About extends Common
 {
   public function index()
   {
-    return $this-> fetch('index/index');
+    return $this-> fetch('about/about');
   }
 }

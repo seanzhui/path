@@ -1,15 +1,237 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit" />
+  <meta name="robots" content="index, follow" />
+  <title>我的网站</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="order by" />
+  {include file="common/head"}
 </head>
 <body>
-  <div id="content">
-    <h1>咸鱼博客电脑版</h1>
-  </div>
+  <div id="page-body-wrap">
+    {include file="common/nav"}
 
+    <!-- 轮播 -->
+    <div id="masterslider" class="master-slider ms-skin-default mb-0-x">
+      <div class="ms-slide">
+          <img src="__INDEX__/picture/blank.gif" data-src="__INDEX__/picture/banner1.jpg" alt="快捷的速度，专项的保险"/>
+        <h2 class="ms-layer pi-caption01" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="0"> 快捷的速度，专项的保险 </h2>
+        <img class="ms-layer slider-line" src="__INDEX__/picture/blank.gif" data-src="__INDEX__/images/slider-line.jpg" alt="快捷的速度，专项的保险" data-type="image" data-effect="bottom(short)" data-duration="300" data-hide-effect="fade" data-delay="300" />
+        <p class="ms-layer pi-text" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="600"> 快捷的速度：为您节省更多时间，专项的保险：为您解决后顾之忧。 </p>
+      </div>
+
+      <div class="ms-slide">
+        <img src="__INDEX__/picture/blank.gif" data-src="__INDEX__/picture/banner2.jpg" alt="可靠的信誉，低廉的价格"/>
+        <h2 class="ms-layer pi-caption01" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="0"> 可靠的信誉，低廉的价格 </h2>
+        <img class="ms-layer slider-line" src="__INDEX__/picture/blank.gif" data-src="__INDEX__/images/slider-line.jpg" alt="可靠的信誉，低廉的价格" data-type="image" data-effect="bottom(short)" data-duration="300" data-hide-effect="fade" data-delay="300" />
+        <p class="ms-layer pi-text" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="600"> 可靠的信誉：是本公司生存力量，低廉的价格：为您获得更大利润。 </p>
+      </div>
+
+      <div class="ms-slide">
+        <img src="__INDEX__/picture/blank.gif" data-src="__INDEX__/picture/banner3.jpg" alt="全方位物流配送服务"/>
+        <h2 class="ms-layer pi-caption01" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="0"> 全方位物流配送服务 </h2>
+        <img class="ms-layer slider-line" src="__INDEX__/picture/blank.gif" data-src="__INDEX__/images/slider-line.jpg" alt="全方位物流配送服务" data-type="image" data-effect="bottom(short)" data-duration="300" data-hide-effect="fade" data-delay="300" />
+        <p class="ms-layer pi-text" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="600"> "急客户所急,想客户所想"的全方位物流配送服务，价格优惠、安全快捷！ </p>
+      </div>
+
+      <div class="ms-slide">
+        <img src="__INDEX__/picture/blank.gif" data-src="__INDEX__/picture/banner4.jpg" alt="公司运输力量雄厚		"/>
+        <h2 class="ms-layer pi-caption01" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="0"> 公司运输力量雄厚		 </h2>
+        <img class="ms-layer slider-line" src="__INDEX__/picture/blank.gif" data-src="__INDEX__/images/slider-line.jpg" alt="公司运输力量雄厚		" data-type="image" data-effect="bottom(short)" data-duration="300" data-hide-effect="fade" data-delay="300" />
+        <p class="ms-layer pi-text" data-type="text" data-effect="top(short)" data-duration="300" data-hide-effect="fade" data-delay="600"> 公司运输力量雄厚备有各类型的车，运输区域遍及全国各地大、中城市！ </p>
+      </div>
+    </div>
+    <!-- 常见问题 -->
+    <div class="page-content" id="index-widget-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 iwt-whyus">
+            <div class="custom-heading"> <h2>为什么选择我们？</h2> </div>
+            <ul class="fa-ul">
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>专业、领先、经济的物流方案</a></li>
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>可靠的信誉：是本公司生存力量</a></li>
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>低廉的价格：为您获得更大利润</a></li>
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>快捷的速度：为您节省更多时间</a></li>
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>专项的保险：为您解决后顾之忧</a></li>
+              <li><i class="fa fa-li fa-long-arrow-right"></i> <a>优质的服务：公司生存的根本</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 iwt-faq">
+            <div class="custom-heading"> <h2><a href="">常见问题</a></h2> </div>
+            <ul class="fa-ul">
+              <li> <i class="fa fa-li fa-long-arrow-right"></i> <a href="" title="快递小哥月入过万是“传说” 大部分都在">快递小哥月入过万是“传说” 大部分都在</a> </li>
+              <li> <i class="fa fa-li fa-long-arrow-right"></i> <a href="" title="顺丰等快递巨头鏖兵证券化：借助资本力">顺丰等快递巨头鏖兵证券化：借助资本力</a> </li>
+              <li> <i class="fa fa-li fa-long-arrow-right"></i> <a href="" title="四方冷链：打造国际知名的冷链物流装备">四方冷链：打造国际知名的冷链物流装备</a> </li>
+              <li> <i class="fa fa-li fa-long-arrow-right"></i> <a href="" title="智能物流装备:步入较快发展期电商快递密">智能物流装备:步入较快发展期电商快递密</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 clearfix iwt-activity">
+            <div class="custom-heading"> <h2><a href="">优惠活动</a></h2> </div>
+            <div class="iact-content"> <img src="__INDEX__/picture/1-1p5160949130-l.jpg" class="float-left" alt="“物流汇”打造产业融合平台"/>
+              <p class="desc">据了解，新跃公司创设的物流汇平台已提供47项服务与产品，基本覆盖了中小物流企业从出生、成长到发展、壮大的全生命周期的需求，构成了完整的全产...</p>
+              <a class="read-more" href=""><span>查看更多<i class="fa fa-chevron-right"></i></span></a> </div>
+          </div>
+          <div class="col-md-3 col-sm-6 custom-bkg bkg-grey iwt-track">
+            <div class="custom-heading">
+              <h2>文章搜索</h2>
+            </div>
+            <p class="desc">如果您想在我司搜索相关内容，请在下方输入。</p>
+            <form  class="tracking" name="formsearch" action="">
+              <input type="hidden" name="kwtype" value="0" />
+              <input class="package-id" name="q" type="text" placeholder="请输入关键字"/>
+              <input type="submit" class="submit" value=""/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 服务项目 -->
+    <div class="page-content" id="index-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="custom-heading02">
+              <h2><a href="http://www.861ppt.com/72/a/hangkongyunshu/">服务项目</a></h2>
+              <p class="desc">急客户所急，想客户所想，价格优惠，安全快捷。</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-30">
+          <div class="col-md-6 col-sm-6 service-item">
+            <div class="service-icon-left-boxed">
+              <div class="icon-container animated triggerAnimation" data-animate="zoomIn"> <a href=""><img src="__INDEX__/picture/1-1p516095645523.jpg" alt="航空运输"/></a> </div>
+              <div class="service-details">
+                <h3><a href="">航空运输</a></h3>
+                <p class="desc">"安全便捷、快速准点、热情礼貌、诚实守信"为服务理念，着力打造服务品牌，以优质服务赢得客户满意和业界好评。我公司与国内各大航空...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 service-item">
+            <div class="service-icon-left-boxed">
+              <div class="icon-container animated triggerAnimation" data-animate="zoomIn"> <a href="http://www.861ppt.com/72/a/xiaojianyunshu/"><img src="__INDEX__/picture/1-1p516095g2610.jpg" alt="小件运输"/></a> </div>
+              <div class="service-details">
+                <h3><a href="http://www.861ppt.com/72/a/xiaojianyunshu/">小件运输</a></h3>
+                <p class="desc">现在的小件货物很好运输(特殊物品除外,例如易燃易爆物品).有很多的大型快递公司(比如申通,圆通,E邮宝等等....),一般发出后3到4天就可...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 service-item">
+            <div class="service-icon-left-boxed">
+              <div class="icon-container animated triggerAnimation" data-animate="zoomIn"> <a href="http://www.861ppt.com/72/a/lingjianyunshu/"><img src="__INDEX__/picture/1-1p516095kcj.jpg" alt="零担运输"/></a> </div>
+              <div class="service-details">
+                <h3><a href="http://www.861ppt.com/72/a/lingjianyunshu/">零担运输</a></h3>
+                <p class="desc">公司提供长途搬家服务，专业搬家，细心服务。同时亦为各位老板提供搬迁厂区设备、物品的服务。遍布全国的运输网络！安全便捷、快速准...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 service-item">
+            <div class="service-icon-left-boxed">
+              <div class="icon-container animated triggerAnimation" data-animate="zoomIn"> <a href="http://www.861ppt.com/72/a/xiangmu/dajianyunshu/"><img src="__INDEX__/picture/1-1p516095th06.jpg" alt="大件运输"/></a> </div>
+              <div class="service-details">
+                <h3><a href="http://www.861ppt.com/72/a/xiangmu/dajianyunshu/">大件运输</a></h3>
+                <p class="desc">大件是在重量、体积上占有优势的物品，在运具上，大件物品有严格要求，不是一般的运输车辆可以完成运输的，需要用到特殊的运输工具来完成...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 新闻动态 -->
+    <div class="page-content" id="index-widget-3col">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 iw3-news iw3-news-1">
+            <div class="custom-heading"> <h3><a href="">公司新闻</a></h3> </div>
+            <ul class="pi-latest-posts clearfix">
+              <li>
+                <div class="post-media"> <a href=""><img src="__INDEX__/picture/1-1p421113544307.jpg" alt="全国社会化电商物流从业人员研究报告"/></a> </div>
+                <div class="post-details">
+                  <div class="post-date"><p><i class="fa fa-calendar"></i> 2018-05-16</p></div>
+                  <a href="" class="inews-title" title="全国社会化电商物流从业人员研究报告"><h4>全国社会化电商物流从业人员研究报告</h4></a>
+                  <a href="" class="read-more"><span>阅读更多 <i class="fa fa-chevron-right"></i></span></a> </div>
+              </li>
+              <li>
+                <div class="post-media"> <a href=""><img src="__INDEX__/picture/1-1p421113544307.jpg" alt="全国社会化电商物流从业人员研究报告"/></a> </div>
+                <div class="post-details">
+                  <div class="post-date"><p><i class="fa fa-calendar"></i> 2018-05-16</p></div>
+                  <a href="" class="inews-title" title="全国社会化电商物流从业人员研究报告"><h4>全国社会化电商物流从业人员研究报告</h4></a>
+                  <a href="" class="read-more"><span>阅读更多 <i class="fa fa-chevron-right"></i></span></a> </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-6 iw3-news iw3-news-2">
+            <div class="custom-heading"> <h3><a href="http://www.861ppt.com/72/a/news/xingyedongtai/">行业动态</a></h3> </div>
+            <ul class="pi-latest-posts clearfix">
+              <li>
+                <div class="post-media"> <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html"><img src="__INDEX__/picture/1-1p42111323jr.jpg" alt="物流企业投资建标准化项目最高补助400万"/></a> </div>
+                <div class="post-details">
+                  <div class="post-date">
+                    <p><i class="fa fa-calendar"></i> 2018-05-16</p>
+                  </div>
+                  <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html" class="inews-title" title="物流企业投资建标准化项目最高补助400万"><h4>物流企业投资建标准化项目最高补助400万</h4></a>
+                  <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html" class="read-more"><span>阅读更多 <i class="fa fa-chevron-right"></i></span></a>
+                </div>
+              </li>
+              <li>
+                <div class="post-media"> <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html"><img src="__INDEX__/picture/1-1p42111323jr.jpg" alt="物流企业投资建标准化项目最高补助400万"/></a> </div>
+                <div class="post-details">
+                  <div class="post-date">
+                    <p><i class="fa fa-calendar"></i> 2018-05-16</p>
+                  </div>
+                  <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html" class="inews-title" title="物流企业投资建标准化项目最高补助400万"><h4>物流企业投资建标准化项目最高补助400万</h4></a>
+                  <a href="http://www.861ppt.com/72/a/news/xingyedongtai/18.html" class="read-more"><span>阅读更多 <i class="fa fa-chevron-right"></i></span></a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-12 clearfix iw3-about">
+            <div class="custom-heading"> <h3><a href="">关于我们</a></h3> </div>
+            <div class="iabout-desc">
+              <p class="iabout-img"><img src="__INDEX__/picture/locations.jpg"/></p>
+              <p class="iabout-text">广州市顺丰物流有限公司具有独立法人资格的运输企业，公司运输力量雄厚备有...</p>
+            </div>
+            <a href="" class="read-more">
+              <span>查看更多 <i class="fa fa-chevron-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 合作机构 -->
+    <div class="page-content custom-bkg bkg-grey" id="index-client">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel-container">
+              <div id="client-carousel" class="owl-carousel owl-carousel-navigation">
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120943050-l.jpg" alt="广汽"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120942510-l.jpg" alt="康佳"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120942350-l.jpg" alt="三星"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120942180-l.jpg" alt="长城汽车"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120942030-l.jpg" alt="上海电气"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120941480-l.jpg" alt="华硕"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120941340-l.jpg" alt="美团网"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120941180-l.jpg" alt="排队网"/></div>
+                <div class="owl-item"><img src="__INDEX__/picture/1-1p5120940590-l.jpg" alt="CITI"/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {include file="common/footer"}
+  </div>
 </body>
 </html>
